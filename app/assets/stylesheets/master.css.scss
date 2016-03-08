@@ -16,7 +16,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 750px;
+  height: 550px;
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
@@ -43,4 +43,14 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .btn {
   border-radius: 0;
+}
+
+.features_box {
+  // background: url('stressed_linen.png');
+  background: rgba(0,0,0, 0.75);
+  color: rgb(255, 255, 255);
+}
+
+body {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
