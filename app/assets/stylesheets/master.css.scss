@@ -144,3 +144,18 @@ ul .header .glyphicon {
 .lessons li p {
   margin: 0;
 }
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  height: 100%; /* 1, 3 */
+}
+
+.Site-content {
+  flex: 1 0 auto; /* 2 */
+}
+
+.Site-footer {
+  flex: none;
+}
